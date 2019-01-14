@@ -1,0 +1,25 @@
+service: serverless-template
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+  - '@joblocal/serverless-invoke-local-environment'
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    packager: 'yarn'
+  invokeLocalEnvironment: ${file(.env)}
+
+package:
+  individually: true
+
+provider:
+  name: aws
+  runtime: node8.10
+
+
+functions:
+  hello:
+    handler: src/handlers/hello.handle
+

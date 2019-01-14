@@ -16,4 +16,12 @@ $ brew install node yarn
 
 - install depencenies: `yarn install`
 
+To test the `hello` function, execute the following command:
+
+```sh
+$ serverless invoke local --function hello
+```
+
+Edit the `serverless.yml` accordingly. Happy hacking ;)
+
 Made with :heart: by Joblocal

@@ -1,4 +1,7 @@
 {
+  "private": true,
+  "name": "Serverless Template",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "lint": "eslint . --format eslint-formatter-pretty",
@@ -13,6 +16,8 @@
     "@joblocal/serverless-invoke-local-environment": "1.0.1",
     "babel-eslint": "10.0.x",
     "babel-jest": "23.6.0",
+    "babel-loader": "8.0.5",
+    "babel-plugin-source-map-support": "2.0.1",
     "eslint": "5.x",
     "eslint-config-airbnb-base": "13.x",
     "eslint-config-prettier": "3.x",
