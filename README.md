@@ -14,6 +14,15 @@ $ brew install node yarn
 
 ## Getting started
 
+- initialize new servless project
+
+```sh
+$ curl -fsSL https://raw.github.com/joblocal/serverless-template/master/install.sh | sh
+
+# optionaly provide a name
+$ curl -fsSL https://raw.github.com/joblocal/serverless-template/master/install.sh | sh -s my-awesome-serverless-project
+```
+
 - install depencenies: `yarn install`
 
 To test the `hello` function, execute the following command:
