@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "lint": "eslint . --format eslint-formatter-pretty",
+    "test": "jest",
+    "test:watch": "jest --watch --onlyChanged",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.x",
+    "@babel/core": "7.2.x",
+    "@babel/preset-env": "7.2.x",
+    "@joblocal/serverless-invoke-local-environment": "1.0.1",
+    "babel-eslint": "10.0.x",
+    "babel-jest": "23.6.0",
+    "eslint": "5.x",
+    "eslint-config-airbnb": "17.x",
+    "eslint-config-prettier": "3.x",
+    "eslint-formatter-pretty": "2.0.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jest": "22.x",
+    "eslint-plugin-prettier": "3.x",
+    "prettier": "1.13.x",
+    "serverless": "1.36.0",
+    "serverless-offline": "3.33.0",
+    "serverless-webpack": "5.2.0",
+    "webpack": "4.28.4",
+    "webpack-node-externals": "1.7.2"
+  }
+}
