@@ -1,4 +1,5 @@
 {
+  "license": "MIT",
   "scripts": {
     "lint": "eslint . --format eslint-formatter-pretty",
     "test": "jest",
@@ -13,7 +14,7 @@
     "babel-eslint": "10.0.x",
     "babel-jest": "23.6.0",
     "eslint": "5.x",
-    "eslint-config-airbnb": "17.x",
+    "eslint-config-airbnb-base": "13.x",
     "eslint-config-prettier": "3.x",
     "eslint-formatter-pretty": "2.0.x",
     "eslint-plugin-import": "2.x",
