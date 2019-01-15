@@ -1,5 +1,4 @@
 const path = require("path");
-const webpack = require("webpack");
 const slsw = require("serverless-webpack");
 const nodeExternals = require("webpack-node-externals");
 
