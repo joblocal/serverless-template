@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+yarn test || exit 1
+yarn lint || exit 1
+yarn build --silent || exit 1
