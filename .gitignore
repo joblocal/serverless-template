@@ -43,3 +43,6 @@ coverage
 dist
 junit.xml
 *.log
+
+# package directories
+.serverless
