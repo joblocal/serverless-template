@@ -16,7 +16,7 @@ package:
 
 provider:
   name: aws
-  runtime: node8.10
+  runtime: nodejs8.10
 
 
 functions:
