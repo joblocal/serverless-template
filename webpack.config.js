@@ -15,7 +15,7 @@ module.exports = {
   externals: [
     nodeExternals(),
     nodeExternals({
-      modulesDir: path.resolve(dirName, '../../node_modules'),
+      modulesDir: resolve('../../node_modules'),
     }),
   ],
 
@@ -23,7 +23,7 @@ module.exports = {
 
   output: {
     libraryTarget: 'commonjs2',
-    path: path.join(dirName, '.webpack'),
+    path: path.join(__dirname, '.webpack'),
     filename: '[name].js',
   },
 
@@ -38,7 +38,7 @@ module.exports = {
     rules: [
       {
         loader: 'babel-loader',
-        test: /\.ts$/,
+        test: /\.js$/,
         exclude: /node_modules/,
       },
     ],
