@@ -1,48 +1,6 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
-
-#
-# OS Specific
-#
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-#
-# IDE Specific
-#
-nbproject
-.~lock.*
-.buildpath
-.idea
-.project
-.settings
-.vscode
-composer.lock
-*.sublime-workspace
-*.swp
-*.swo
-
-#
-# Project specific
-#
-
-# dotenv
-!.env.development.example
-!.env.defaults
-!.env.schema
-!.env
-.env.*
-
-# dependencies, build, log, etc
 node_modules
-coverage
-dist
-junit.xml
-*.log
-
-# package directories
 .serverless
+.webpack
+.env
+.env.local
+yarn-error.log
